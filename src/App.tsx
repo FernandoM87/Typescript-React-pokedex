@@ -1,6 +1,8 @@
+//@ts-nocheck
+
 import * as React from 'react';
 import "./App.css"; 
-import PokeGame from "../components/pokegame.jsx"; 
+import PokeGame from "../components/pokegame.tsx"; 
 
 function App() {
   const pokeData =

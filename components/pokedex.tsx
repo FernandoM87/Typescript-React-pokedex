@@ -1,4 +1,6 @@
-import Pokecard from "./pokecard.jsx"
+// @ts-nocheck
+
+import Pokecard from "./pokecard.tsx"
 
 //Den här komponenten ska ta emot datat om pokemons (en array av objekt) och rendera vardera Pokecard. 
 const Pokedex = ({ pokemons, totalExp, isWinner }) => {

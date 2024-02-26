@@ -1,4 +1,6 @@
-import Pokedex from "./pokedex.jsx"; 
+// @ts-nocheck
+
+import Pokedex from "./pokedex.tsx"; 
 
 //Slumpa en hand med 4 kort, 2 ggr med Pokedex 
 const PokeGame = ({ pokemons }) => {

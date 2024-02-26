@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 //Den här komponenten visar en Pokemon med namn, bild, typ och experience.
 const Pokecard = ({ name, id, type, experience }) => 
   (
